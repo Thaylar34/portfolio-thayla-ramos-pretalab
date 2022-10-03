@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+}
+
+li {
+   list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    background-color: blueviolet;
+}
+.header-menu nav {
+    display: flex; /* flexbox */
+    justify-content: flex-end;
+    width: 100%; /*Largura*/
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%; /* espacamento igual entre 3 itens */
+    align-items: center; /* alinha o item */
+}
+
+.lista-menu li>a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column; /* para os itens ficarem embaixo um do outro */
+    align-items: center; /* para o subcontainer centralizar */
+    text-align: center;
+}
+
+.container {
+    margin-right: auto; /* margem automatica para todos os lados*/
+    margin-left: auto; /*margem para o lado esquerdo*/
+    margin-top: 200px;
+    max-width: 960px; /* maximo de largura */
+    padding-right: 10px; /*espacamento do lado direita*/
+    padding-left: 10px; /* espacamento da esquerda */
+    width: 100%;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: deeppink;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao {
+    color: darkmagenta;
+    line-height: 60px; /*espacamento entre as letras */
+}
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px; /*espacamento entre as letras */
+}
+
+.section-lista {
+    display: flex;
+    flex-direction: column; /* para uma ficar de baixo do outro */
+    margin-top: 100px ; /*distancia que tem de uma sessão para outra */
+    margin-bottom: 100px;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color: deeppink;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px; /* margem de baixo */
+    font-size: 22px;
+    color: #661e4b;
+    font-weight: 700;
+}
+
+.lista-local {
+    font-size: 18px;
+    color: darkblue;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300; /* espessura da fonte*/
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.wrapper-portfolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {   /* e o roda pe do site*/
+    background-color: blueviolet;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-footer li {
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+
