@@ -86,7 +86,6 @@ li {
     display: flex;
     flex-direction: column; /* para uma ficar de baixo do outro */
     margin-top: 100px ; /*distancia que tem de uma sessão para outra */
-    margin-bottom: 100px;
 }
 
 .topico-principal {
@@ -96,6 +95,10 @@ li {
 
 .lista-item {
     padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
 }
 
 .lista-titulo {
@@ -118,19 +121,32 @@ li {
     font-weight: 300; /* espessura da fonte*/
 }
 
-.lista-item ul li {
-    margin-bottom: 32px;
+.formacao {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
-.wrapper-portfolio {
+.projetos {
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
 }
 
+
+
+.container-footer {
+    margin-right: auto; /*uma margem automática para todos os lados*/
+    margin-left: auto; /**/
+    max-width: fit-content;/*largura maxima*/
+    padding-right: 10px; /* Espaçamento direito*/
+    padding-left: 10px; /*Espaçamento esquerdo*/
+    width: 100%; /*largura*/
+}
+
 .footer {   /* e o roda pe do site*/
     background-color: blueviolet;
-    height: 30vh;
+    height: 550px;
     display: flex;
     align-items: center;
 }
